@@ -217,7 +217,7 @@ footer nav a {
     text-decoration: none;
 }
 
-@media(max-width: 900px){
+@media(max-width: 800px){
     .navBar{
         justify-content: center;
     }
@@ -237,5 +237,16 @@ footer nav a {
 
     .middle-content .boxes .box{
         width: 15%;
+    }
+
+    @media(max-width: 750px){
+        .logoNavWrap{
+            flex-direction: column;
+        }
+
+        .navBar{
+            margin: 2% 0%;
+        }
+
     }
 }
