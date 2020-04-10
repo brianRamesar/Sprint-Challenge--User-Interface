@@ -1,0 +1,271 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-bottom: 1px dashed black;
+}
+
+.logoNavWrap{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+
+.navBar{
+    display: flex;
+    width: 82%;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.mobileNav{
+    display: none;
+}
+
+.navBar a{
+    display: flex;
+    margin-right: 16%;
+    color: black;
+    text-decoration: none;
+}
+
+.hero{
+    width: 100%;
+}
+
+.hero img{
+    width: 100%;
+}
+
+
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content h2 {
+    font-size: 5rem;
+    padding: 0 2%;
+    margin-bottom: 10%;
+}
+
+.middle-content{
+    line-height: 10%;
+    font-size: 3rem;
+}
+
+
+@media(max-width: 800px){
+    .navBar{
+        justify-content: center;
+    }
+
+    .navBar a{
+        margin-right: 8%;
+    }
+
+    .text-container{
+        font-size: .9rem;
+        line-height: 2rem;
+    }
+
+    .text-container p{
+        line-height: 1.5rem;
+    }
+
+    .middle-content .boxes .box{
+        width: 15%;
+    }
+
+    @media(max-width: 750px){
+        .logoNavWrap{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .navBar{
+            margin: 2% 0%;
+        }
+
+    }
+}
+
+@media(max-width: 500px){
+    .navBar{
+        display: none;
+
+    }
+
+    .container{
+        width: 100%;
+    }
+
+   
+    .mobileNav{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15%;
+        width: 60%;
+    }
+
+    .mobileNav button{
+        background-color: white;
+        padding: 2% 0%;
+        border-radius: 10px;
+    }
+
+    .mobileNav button:hover{
+        background-color: gray;
+        
+    }
+
+    .mobileNav button a{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+       
+    }
+
+
+    .hero img{
+        width: 100%;
+        height: 10rem;
+    }
+
+    .bothTexts{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+    }
+
+    .top-content .text-container h2{
+        font-size: 1.6rem;;
+        font-weight: 400;
+    }
+
+    .top-content .text-container p{
+        font-size: .9rem;
+    }
+
+    .middle-content .boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .middle-content .boxes .box{
+        width: 25%;
+    }
+
+    #box5{
+        display: none;
+    }
+    #box6{
+        display: none;
+    }
+    #box7{
+        display: none;
+    }
+    #box8{
+        display: none;
+    }
+    #box9{
+        display: none;        
+    }
+    #box10{
+        display: none;            
+    }
+
+    .bottom-content{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+
+
+}
