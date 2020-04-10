@@ -1,0 +1,17 @@
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    semantic HTML is defined as HTML that is legible, meaning you have to use proper tags, the w3c standards tags. it makes it 
+    easier to read for other devs.  
+
+2. What are the 4 areas of the box model?
+    Padding, border, margin, and content.
+
+3. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    align-items: center; would align items on the cross axis, (vertical)
+
+4. Explain why git is valuable to a team of developers.
+    I believe git is extremely valuable, because it gives teh entire team, mo matter how big, teh capibilities to work on 
+    multiple elements of the same projetcs, making version control alot easier.
+
+5. Define mobile-first design in your own words.
+    a mobile first design is when you'd design the web pages content to fit mobile screens first then use media queries with min: width
+    to design up, in terms of screen resolution, as of how many media queries, it depends on how accessible you want your site to be.

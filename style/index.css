@@ -120,6 +120,10 @@ p {
     padding: 2% 1%;  
 }
 
+.bothTexts{
+    display: flex;
+}
+
 
 .middle-content {
     margin-bottom: 20px;
