@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -135,7 +135,7 @@ p {
 .middle-content .boxes .box {
     width: 12%;
     height: 110px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -215,4 +215,27 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media(max-width: 900px){
+    .navBar{
+        justify-content: center;
+    }
+
+    .navBar a{
+        margin-right: 8%;
+    }
+
+    .text-container{
+        font-size: .9rem;
+        line-height: 2rem;
+    }
+
+    .text-container p{
+        line-height: 1.5rem;
+    }
+
+    .middle-content .boxes .box{
+        width: 15%;
+    }
 }
